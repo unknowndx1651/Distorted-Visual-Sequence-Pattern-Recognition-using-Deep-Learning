@@ -3,7 +3,9 @@
 A deep learning pipeline for recognizing text sequences from heavily distorted grayscale images — built entirely from scratch using PyTorch.
 
 ---
-
+Name : Shah Daksh Akhil
+Enrollment no. : 24115132
+---
 ## Problem
 
 Given a grayscale image containing a text sequence corrupted by visual distortions, predict the correct ordered sequence of characters. The primary distortion in this dataset is a **large solid black elliptical blob** covering 30–50% of the image, with additional background noise and graininess.
@@ -74,11 +76,12 @@ Standard augmentations (CoarseDropout, ElasticTransform) were rejected because t
 | 11 | Validation & CER Evaluation |
 | 12 | Training Execution & Curves |
 | 13 | Error Analysis |
-
+| 14 | Generation of Submission CSV |
 ---
 
 ## Stack
 
+- **Pandas, Numpy, Matplotlib, Seaborn** — Data Analysis and Visualisation
 - **PyTorch** — model, training, CTC loss
 - **Albumentations** — augmentation pipeline including custom transform
 - **OpenCV / Pillow** — image loading and preprocessing
@@ -91,7 +94,7 @@ Standard augmentations (CoarseDropout, ElasticTransform) were rejected because t
 ## Setup
 
 ```bash
-pip install torch torchvision albumentations editdistance opencv-python pandas numpy matplotlib tqdm scikit-learn
+pip install torch torchvision albumentations editdistance opencv-python pandas numpy matplotlib seaborn tqdm scikit-learn
 ```
 
 Dataset is expected in the following structure:
