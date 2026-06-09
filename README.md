@@ -3,8 +3,10 @@
 A deep learning pipeline for recognizing text sequences from heavily distorted grayscale images — built entirely from scratch using PyTorch.
 
 ---
-Name : Shah Daksh Akhil
+
+Name : Shah Daksh Akhil  
 Enrollment no. : 24115132
+
 ---
 ## Problem
 
